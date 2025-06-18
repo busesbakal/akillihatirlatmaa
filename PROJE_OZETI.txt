@@ -1,0 +1,28 @@
+Akıllı Hatırlatma & Günlük Planlayıcı Uygulaması
+===============================================
+
+Bu mobil uygulama, Expo destekli React Native ile geliştirilmiş, kullanıcının günlük planlarını ve hatırlatıcılarını kolayca yönetmesini sağlayan modern bir planlayıcıdır.
+
+TEMEL ÖZELLİKLER
+----------------
+- **Ana Sayfa:** Yaklaşan hatırlatmalar kart şeklinde ve renkli uyarılarla gösterilir. Önemli ve önceliği yüksek hatırlatmalar için ekstra uyarı çıkar.
+- **Hatırlatma Ekle/Düzenle:**
+  - Başlık, açıklama, tarih/saat ve öncelik seçimi ile hatırlatıcı eklenir.
+  - Sık eklenen başlıklar için akıllı öneri butonları sunulur.
+  - Hatırlatıcıyı 1 veya 3 saat erteleme imkanı vardır. Çok kez ertelenen hatırlatmalar için "Daha uygun bir zamana taşımak ister misiniz?" uyarısı çıkar.
+  - Önceliği yüksek ve yaklaşan hatırlatmalar için ana sayfada ekstra uyarı gösterilir.
+- **Günlük Plan:** Yapılacaklar listesi, tamamlandı işaretleme, silme ve tamamlanma yüzdesi ile modern bir yapılacaklar ekranı.
+- **Profil:** Kullanıcı adı, soyadı, yaş ve profil resmi eklenebilir ve düzenlenebilir. Bilgiler kalıcı olarak saklanır.
+- **Karanlık/Aydınlık Mod:** Uygulama sistem temasına göre otomatik olarak renk değiştirir.
+- **Alt Menü (Tab Bar):** Ana sayfa, günlük plan ve profil sekmeleri arasında kolay geçiş.
+- **Bildirimler:** Hatırlatıcı zamanı geldiğinde push notification gönderilir.
+
+AKILLI HATIRLATMA FONKSİYONLARI
+-------------------------------
+- **Sık Eklenen Hatırlatıcı Önerisi:** Kullanıcı 3 veya daha fazla aynı başlıkta hatırlatıcı eklerse, bu başlık öneri olarak sunulur ve tıklanınca form otomatik doldurulur.
+- **Erteleme Analizi:** Bir hatırlatıcı 2 veya daha fazla kez ertelenirse, kullanıcıya "Daha uygun bir zamana taşımak ister misiniz?" önerisi çıkar.
+- **Öncelik ve Zamanlama Uyarısı:** Önceliği yüksek ve zamanı yaklaşan hatırlatmalar için ana sayfada ekstra uyarı kutusu gösterilir.
+
+KULLANIM
+--------
+- Modern ve kullanıcı dostu arayüz.
